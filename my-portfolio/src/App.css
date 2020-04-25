@@ -18,6 +18,13 @@ text-align: center;
 
 
 }
+.projects-grid {
+  display: flex;
+}
+
+
+
+
 .avatar-img {
 height: 450px;
 margin-top: 130px;
