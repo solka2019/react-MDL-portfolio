@@ -11,9 +11,6 @@ class Landing extends Component {
 src="./images/marissol-picture.jpg"
 alt= "avatar"
 className="avatar-img"
-
- 
-
 />
 
 <div className="banner-text">
