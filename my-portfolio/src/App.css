@@ -1,3 +1,4 @@
+/* heading all pages */
 .header-color {
   background: #556270;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #FF6B6B, #556270);  /* Chrome 10-25, Safari 5.1-6 */
@@ -18,21 +19,15 @@ text-align: center;
 
 
 }
-.projects-grid {
-  display: flex;
-padding-top:150px;
-  
-}
-
-
-
-
+/* my picture landing page */
 .avatar-img {
 height: 450px;
 margin-top: 130px;
 padding-bottom:150px;
 
 }
+
+/* landing page */
 .banner-text {
   background-color: gray;
   opacity:.8;
@@ -74,4 +69,30 @@ padding-bottom:150px;
   color:white;
   font-size: 5em ;
   padding: 8px;
+}
+
+
+/* projects page */
+
+
+
+
+
+.projects-grid {
+  display: flex;
+  justify-content: space-between;
+  /* padding-top: 300px; */
+}
+
+.projects-grid .card {
+  width: auto;
+  margin: auto;
+  border-radius: 15px;
+  
+}
+
+@media (max-width: 520px) {
+  .projects-grid .card{
+    justify-content: space-between;
+  }
 }
