@@ -12,8 +12,12 @@ class Projects extends Component {
 
     if(this.state.activeTab === 0){
       return(
-        <div className="projects-grid">
-            
+        // <div className="projects-grid">
+
+        <div style={{width: '80%', margin: 'auto'}}>
+
+            <Grid className="projects-grid">
+            <Cell col={4}>
           {/* Project 1 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#fff', height: '400px', background: 'url(/images/recipe-search.png'}} >Project #1</CardTitle>
@@ -29,10 +33,11 @@ class Projects extends Component {
               <IconButton name="share" />
             </CardMenu>
           </Card>
-
+          </Cell>
+          <Cell col={4}>
           {/* Project 2 */}
           <Card shadow={5} style={{minWidth: '550', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #2</CardTitle>
+            <CardTitle expand style={{alignItems: 'stretch', height: '400px', background: 'url(./images/recipe-search.png'}} >React Project #2</CardTitle>
             <CardText>
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
             </CardText>
@@ -45,25 +50,29 @@ class Projects extends Component {
               <IconButton name="share" />
             </CardMenu>
                   </Card>
-                  
+                  </Cell>
+                 
+                  <Cell col={4}>
+                      
+                  <Card shadow={0} style={{width: '400px', height: '256px', background: 'url(/images/recipe-search.png) center / cover', margin: 'auto'}}>
+                  <CardTitle expand style={{alignItems: 'flex-start', color: '#fff'}}>
 
-
-          Project 3
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #3</CardTitle>
-            <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-            </CardText>
-            <CardActions border>
+    <CardActions style={{height: '52px', padding: '16px', background: 'rgba(0,0,0,0.2)'}}>
+        <span style={{color: '#fff', fontSize: '14px', fontWeight: '500'}}>
+            Image.jpg
+        </span>
+        </CardActions>
+        <CardActions border>
               <Button colored>GitHub</Button>
               <Button colored>Heroku</Button>
               <Button colored>Live Demo</Button>
             </CardActions>
-            <CardMenu style={{color: '#fff'}}>
-              <IconButton name="share" />
-            </CardMenu>
-          </Card>
-       
+</CardTitle>
+    
+   
+</Card> 
+</Cell>
+</Grid>
 </div>
 
       )

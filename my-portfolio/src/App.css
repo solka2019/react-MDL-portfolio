@@ -20,6 +20,8 @@ text-align: center;
 }
 .projects-grid {
   display: flex;
+padding-top:150px;
+  
 }
 
 
