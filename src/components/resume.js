@@ -19,7 +19,7 @@ class Resume extends Component {
             <h4 style={{ fontWeight: "bold", fontSize: "3.0rem", color: "grey" }}>
               Full Stack Web Developer
             </h4>
-            <hr style={{ border: "3px solid red", width: "50%" }} />
+            <hr style={{ border: "3px solid red", width: "90%" }} />
             <p className="para">
               <br></br>
               Full Stack developer with a background in education and a passion
@@ -32,7 +32,7 @@ class Resume extends Component {
               <br></br>
             </p>
 
-            <hr style={{ border: "3px solid red", width: "50%" }} />
+            <hr style={{ border: "3px solid red", width: "90%" }} />
             <h5 style={{ fontWeight: "bold", fontSize:'2rem' }}>Location</h5>
             <p className="para">Seattle, WA</p>
             <h5 style={{ fontWeight: "bold", fontSize:'2rem'  }}>Phone</h5>
@@ -41,7 +41,7 @@ class Resume extends Component {
             <p className="para">marfkar@gmail.com</p>
             <h5 style={{ fontWeight: "bold", fontSize:'2rem'  }}>Web Address</h5>
             <p className="para">https://AFTER-DEPLOYMENT!!!!!!!!!!!!!</p>
-            <hr style={{ border: "3px solid red", width: "50%" }} />
+            <hr style={{ border: "3px solid red", width: "90%" }} />
           </Cell>
 
           <Cell
