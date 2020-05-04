@@ -38,3 +38,13 @@
     margin-top: 100px;
 } */
 
+.banner-contact {
+    background-color: gray;
+  opacity:.8;
+  width:75%;
+  margin: 300px;
+  padding-top: 50px;
+  border-radius: 10px;
+  height: 60%;
+  border: solid 8px white;
+}

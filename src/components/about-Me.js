@@ -23,7 +23,7 @@ class AboutMe extends Component {
         </p>
 <br></br>
         <p className="h3">
-          Through the web development bootcamp from the University of Washington, I have been enhancing my knowledge in JavaScript, HTML, CSS, Bootstrap, jQuery, AngularJS, MongoDB, MySQL, Mongoose, React, and MERN. I am eager to keep learning many other programming languages, frameworks, and technical knowledge to help my team and company achieve their goals. </p>
+          Through the web development bootcamp from the University of Washington, I have been enhancing my knowledge in JavaScript, HTML, CSS, Bootstrap, jQuery, MongoDB, MySQL, React, and MERN. I am eager to keep learning many other programming languages, frameworks, and technical knowledge to help my team and company achieve their goals. </p>
 <br></br>
               <hr style={{opacity: '2.5', border: "3px solid red", width: "100%" }}></hr>
              </h4>

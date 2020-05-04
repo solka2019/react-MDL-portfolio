@@ -20,7 +20,7 @@ className="avatar-img"
     <h1>Full Stack Developer</h1>
     <hr></hr>
     <p>
-        HTML/CSS| Bootstrap | Materialize |Javascript | React | Express | MySQL | MongoDB
+        HTML/CSS| Bootstrap | Materialize |Javascript | React | Express | MySQL | MongoDB | MERN |
     </p>
 
     <div className="social-links">

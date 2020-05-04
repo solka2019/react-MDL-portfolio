@@ -6,82 +6,53 @@ class Contact extends Component {
 
     render(){
         return(
-            <div className="contact-body">
-              <Grid className="contact-grid" >
-                  <Cell col={12} >
-                    <h2 className="h2">Marissol Karczeski</h2> 
-                    </Cell>
+          <div style={{width: '100%', margin: 'auto'}}>
+          <Grid className="landing-grid">
+              <Cell col={12}>
 
-                  <Cell col={12}><br></br>
-                  <br></br>
-                  <br></br>
-                  <br></br>
-                  
-                    <h2 className="h2">CONTACT ME</h2> 
-                    {/* ESTE CONTACT INFO SOH FICA RESPONSIVE SE NAO MUDAR PRO MEIO, SE MUDAR, DEIXA DE SER RESPONSIVE!!!!!!!!!!!!!! */}
-                    <hr/>
-      <div className="contact-banner">
-        <Grid>
+<div className="banner-contact">
+<h1>Marissol Karczeski</h1>
+<hr></hr>
+<h3>
+Phone:
+425-457-6040
+</h3>
 
-          <Cell
-            col={8}
-            style={{
-              backgroundColor: "lightgray",
-              border: "8px solid black",
-              marginTop: "100px",
-              paddingLeft: "30px",
-            }}
-          >
-            <h5 style={{ fontWeight: "bold", fontSize: "3.0rem" }}>
-              email
-            </h5>
-            <br></br>
-            <p style={{ fontSize: "2.5rem" }}>
-              marfkar@gmail.com
-            </p>
-            <br></br>
-            <h5 style={{ fontWeight: "bold", fontSize: "3.0rem" }}>
-              {" "}
-              Phone Number
-            </h5>
-            <br></br>
-            <p style={{ fontSize: "2.5rem" }}>
-              425-457-6040
-            </p>
-            <br></br>
-            <br></br>
+<h3>
+email:
+marfkar@gmail.com
+</h3>
 
-            <h5 style={{ fontWeight: "bold", fontSize: "3.0rem" }}>
-              Linkedin
-            </h5>
-            <br></br>
-            <p style={{ fontSize: "2.5rem" }}>
-            https://www.linkedin.com/in/marissolkarczeski/	
-              <br></br>
-              <br></br>
-            </p>
+<h3>
+Github:
+https://github.com/solka2019?tab=repositories
+</h3>
 
-            <h5 style={{ fontWeight: "bold", fontSize: "3.0rem" }}>
-              Github
-            </h5>
-            <br></br>
-            <p style={{ fontSize: "2.5rem" }}>
-            https://github.com/solka2019
-            </p>
-          </Cell>
-        </Grid>
+
+<h3>
+Linkedin:
+https://www.linkedin.com/in/marissolkarczeski/	
+</h3>
+
+{/* <div className="social-links">
+
+  {/* Linkedin */}
+  <a href="https://www.linkedin.com/in/marissol-k-603962113/" rel="noopener noreferrer"  target="_blank">
+      <i className="fa fa-linkedin-square" aria-hidden="true"/>
+  </a>
+
+  {/* Github */}
+  <a href="https://github.com/solka2019/Updated-Portfolio-Page-2" rel="noopener noreferrer"  target="_blank">
+      <i className="fa fa-github-square" aria-hidden="true"/>
+  </a>
+
+</div> */}
+{/* </div> */}
+              </Cell>
+          </Grid>
       </div>
-    );
-  }
+  )
 }
-
-
-                    
-                  </Cell>
-              </Grid>
-            </div>
-        )
-    }
 }
 
 export default Contact;
