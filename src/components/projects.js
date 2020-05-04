@@ -25,7 +25,7 @@ class Projects extends Component {
   toggleCategories() {
     if (this.state.activeTab === 0) {
       return (
-        <div className="projects-grid" style={{ width: "80%", margin: "auto" }}>
+        <div className="projects-grid" style={{ width: "80%", margin: "auto"  }}>
           {/* PROJETO #1 FOI MODIFICADO COM MINHA FOTO, MAS NAO TA RESPONSIVE COMO O DA COPIA - VERIFICAR!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */}
          
           {/*Project #1*/}
@@ -34,7 +34,6 @@ class Projects extends Component {
               <Card shadow={0} className="card">
                 <CardTitle
                   style={{
-                    color: "#fff",
                     height: "400px",
                     width: "600px",
                     backgroundSize: "cover",

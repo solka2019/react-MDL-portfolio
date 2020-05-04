@@ -3,11 +3,10 @@ import { Footer, FooterSection, FooterLinkList } from 'react-mdl';
 
 function MyFooter() {
   return (
-    <Footer className="myfooter" size="mini">
-      <FooterSection type="left" logo="Title">
+    <Footer className="myfooter" >
+      <FooterSection >
           <FooterLinkList>
-              <a href="#">Help</a>
-              <a href="#">Privacy & Terms</a>
+              <p className='title-footer'>Copyright 2020</p>
           </FooterLinkList>
       </FooterSection>
 </Footer>
