@@ -20,34 +20,63 @@ class Contact extends Component {
                     <h2 className="h2">CONTACT ME</h2> 
                     {/* ESTE CONTACT INFO SOH FICA RESPONSIVE SE NAO MUDAR PRO MEIO, SE MUDAR, DEIXA DE SER RESPONSIVE!!!!!!!!!!!!!! */}
                     <hr/>
-                    <div className="contact-list">
-                       <List>
-                            <ListItem>
-                                <ListItemContent className="para">
-                                    <i className="fa fa-phone-square" area-hidden="true" />
-                                          425-457-6040
-                                </ListItemContent>
-                            </ListItem>
+      <div className="contact-banner">
+        <Grid>
 
-                            <ListItem>
-                                <ListItemContent className="para">
-                                    <i className="fa fa-envelope" area-hidden="true" />
-                                        marfkar@gmail.com
-                                </ListItemContent>
+          <Cell
+            col={8}
+            style={{
+              backgroundColor: "lightgray",
+              border: "8px solid black",
+              marginTop: "100px",
+              paddingLeft: "30px",
+            }}
+          >
+            <h5 style={{ fontWeight: "bold", fontSize: "3.0rem" }}>
+              email
+            </h5>
+            <br></br>
+            <p style={{ fontSize: "2.5rem" }}>
+              marfkar@gmail.com
+            </p>
+            <br></br>
+            <h5 style={{ fontWeight: "bold", fontSize: "3.0rem" }}>
+              {" "}
+              Phone Number
+            </h5>
+            <br></br>
+            <p style={{ fontSize: "2.5rem" }}>
+              425-457-6040
+            </p>
+            <br></br>
+            <br></br>
 
-                            </ListItem>
+            <h5 style={{ fontWeight: "bold", fontSize: "3.0rem" }}>
+              Linkedin
+            </h5>
+            <br></br>
+            <p style={{ fontSize: "2.5rem" }}>
+            https://www.linkedin.com/in/marissolkarczeski/	
+              <br></br>
+              <br></br>
+            </p>
 
-                            <ListItem>
-                                <ListItemContent className="para">
-                                    <i className="fa fa-skype" area-hidden="true" />
-                                        MARISSOLKARCZESKICHECKITOUT@live.com
-                                </ListItemContent>
+            <h5 style={{ fontWeight: "bold", fontSize: "3.0rem" }}>
+              Github
+            </h5>
+            <br></br>
+            <p style={{ fontSize: "2.5rem" }}>
+            https://github.com/solka2019
+            </p>
+          </Cell>
+        </Grid>
+      </div>
+    );
+  }
+}
 
-                            </ListItem>
 
-                            
-                      </List>
-                    </div>
+                    
                   </Cell>
               </Grid>
             </div>

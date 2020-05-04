@@ -23,8 +23,9 @@ text-align: center;
 .avatar-img {
 height: 450px;
 margin-top: 130px;
-margin-bottom:20px;
+margin-bottom:120px;
 border: solid 8px white;
+border-radius: 10px;
 
 }
 
@@ -89,6 +90,7 @@ border: solid 8px white;
 
 .projects-grid .card {
   width: auto;
+  height:450px;
   margin: auto;
   border-radius: 15px;
   
@@ -102,3 +104,5 @@ border: solid 8px white;
 .para {
   font-size: 1.5 rem;
 }
+/* Contacts Page */
+.contact-banner {}
