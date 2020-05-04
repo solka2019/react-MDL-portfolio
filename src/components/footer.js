@@ -6,7 +6,7 @@ function MyFooter() {
     <Footer className="myfooter" >
       <FooterSection >
           <FooterLinkList>
-              <p className='title-footer'>Copyright 2020</p>
+              <p className='title'>Copyright 2020</p>
           </FooterLinkList>
       </FooterSection>
 </Footer>
