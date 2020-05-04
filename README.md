@@ -1,18 +1,16 @@
-To run this app:
+## My Portfolio - React
+
+### To run this app:
 
 - npm install 
 - npm start
 
-Requirements
+### Github
+
+https://github.com/solka2019/react-MDL-portfolio
+
+https://solka2019.github.io/react-MDL-portfolio/.
 
 
-A single Project component that will be used multiple times on a single page
 
 
-Navigation with React Router, dynamic rendering, or another third part router
-
-
-A Footer component that appears on multiple pages
-
-
-Update GitHub profile with pinned repositories featuring those same projects
