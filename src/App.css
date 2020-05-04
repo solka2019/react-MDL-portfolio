@@ -1,8 +1,4 @@
 /* heading all pages */
-html {
-  height: 100%;
-}
-
 .header-color {
   background: #556270;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #FF6B6B, #556270);  /* Chrome 10-25, Safari 5.1-6 */
@@ -19,7 +15,7 @@ body {
   flex-direction: column;
   overflow: auto;
   background-color:rgb(221, 174, 174);
-  margin-bottom: 9em;
+  /* margin-bottom: 9em; */
 
   
 
@@ -29,14 +25,8 @@ body {
 
 .myfooter {
 bottom: 0;
-line-height: 20px;
 height: 9em;
-left: 0;
 position: absolute; 
-/* position:sticky; */
-bottom: 0;
-left: 0; 
-/* font-size: small; */
 width:100%;
 background-color: grey !important;
 align-items: center;
@@ -49,10 +39,10 @@ padding: 3em;
 .title-footer {
   text-align: center   ;
 color:white;
-font-weight: bold  ;
+/* font-weight: bold !important ; */
 margin-top: 50px;
 line-height: 50px;
-font-size: medium;
+/* font-size: medium; */
 
 }
 
