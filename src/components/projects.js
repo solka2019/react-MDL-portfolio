@@ -403,11 +403,7 @@ class Projects extends Component {
               ripple
             >
               <Tab style={{ fontSize: "14px", fontWeight: "bold" }}>
-                ReactJS
-              </Tab>
-              <Tab style={{ fontSize: "14px", fontWeight: "bold" }}>NodeJS</Tab>
-              <Tab style={{ fontSize: "14px", fontWeight: "bold" }}>
-                Android
+                My Projects
               </Tab>
             </Tabs>
           </Cell>
