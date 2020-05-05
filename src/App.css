@@ -1,11 +1,8 @@
 /* heading all pages */
 .header-color {
   background: #556270;
-  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #FF6B6B, #556270);
-  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #FF6B6B, #556270);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
@@ -17,7 +14,7 @@ body {
   display: flex;
   flex-direction: column;
   overflow: auto;
-  background-color: rgb(221, 174, 174);
+  background-color: rgb(201, 198, 198);
   /* margin-bottom: 9em; */
 
 
@@ -26,17 +23,15 @@ body {
 
 
 
-.myfooter {
-  bottom: 0;
-  height: 9em;
-  position: absolute;
+#myfooter {
+  height: 200px;
   width: 100%;
-  background-color: grey !important;
+  background: -webkit-linear-gradient(to right, #FF6B6B, #556270);
+  background: linear-gradient(to right, #FF6B6B, #556270);
+
   align-items: center;
-  display: flex;
-  justify-content: center;
-  margin-top: auto;
   padding: 3em;
+  text-align: center;
 }
 
 .title-footer {
@@ -50,7 +45,7 @@ body {
 .landing-grid {
   background: #556270;
   background: -webkit-linear-gradient(to right, #FF6B6B, #556270);
-  background: linear-gradient(to right, #FF6B6B, #326faf);
+  background: linear-gradient(to right, #FF6B6B, #556270);
   position: fixed;
   top: 0;
   left: 0;

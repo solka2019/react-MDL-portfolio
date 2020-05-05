@@ -3,7 +3,7 @@ import './App.css';
 import {Layout, Header, Navigation, Drawer, Content  } from 'react-mdl';
 import Main from './components/main';
 import { Link } from 'react-router-dom';
-import MyFooter from './components/footer';
+// import MyFooter from './components/footer';
 // import Button from '@material-ui/core/Button';
 
 class App extends Component {
@@ -32,9 +32,12 @@ class App extends Component {
                 <div className="page-content" />
                 <Main/>
             </Content>
+            <div id="myfooter"> 
+        Copyright &copy;
+      </div>
         </Layout>
     </div>
-<MyFooter/>
+{/* <MyFooter/> */}
       </div>
 
   );
