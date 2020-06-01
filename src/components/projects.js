@@ -38,7 +38,7 @@ class Projects extends Component {
                     width: "600px",
                     backgroundSize: "cover",
                     backgroundRepeat: "no-repeat",
-                    backgroundImage: "url(./images/recipe-search.png)",
+                    backgroundImage: "url(./images/recipe-search.PNG)",
                     color: "black",
                   }}
                 >
@@ -89,7 +89,7 @@ class Projects extends Component {
                     width: "600px",
                     backgroundSize: "cover",
                     backgroundRepeat: "no-repeat",
-                    backgroundImage: "url(./images/project-2.png)",
+                    backgroundImage: "url(./images/project-2.PNG)",
                     color: "black",
                   }}
                 >
@@ -133,7 +133,7 @@ class Projects extends Component {
                     width: "600px",
                     backgroundSize: "cover",
                     backgroundRepeat: "no-repeat",
-                    backgroundImage: "url(./images/choreZ.png)",
+                    backgroundImage: "url(./images/choreZ.PNG)",
                     color: "black",
                    
                   }}
@@ -180,7 +180,7 @@ class Projects extends Component {
                     width: "600px",
                     backgroundSize: "cover",
                     backgroundRepeat: "no-repeat",
-                    backgroundImage: "url(./images/eat-da-burger.png)",
+                    backgroundImage: "url(./images/eat-da-burger.PNG)",
                     color: "black",
                   }}
                 >
@@ -225,7 +225,7 @@ class Projects extends Component {
                     width: "600px",
                     backgroundSize: "cover",
                     backgroundRepeat: "no-repeat",
-                    backgroundImage: "url(./images/password-generator.png)",
+                    backgroundImage: "url(./images/password-generator.PNG)",
                     color: "black",
                   }}
                 >
@@ -268,7 +268,7 @@ class Projects extends Component {
                     width: "600px",
                     backgroundSize: "cover",
                     backgroundRepeat: "no-repeat",
-                    backgroundImage: "url(./images/weather.png)",
+                    backgroundImage: "url(./images/weather.PNG)",
                     color: "black",
                   }}
                 >

@@ -40,7 +40,7 @@ class Resume extends Component {
             <h5 style={{ fontWeight: "bold", fontSize:'2rem'  }}>E-Mail</h5>
             <p className="para">marfkar@gmail.com</p>
             <h5 style={{ fontWeight: "bold", fontSize:'2rem'  }}>Web Address</h5>
-            <p className="para">https://AFTER-DEPLOYMENT!!!!!!!!!!!!!</p>
+            <p className="para">https://react-mdl-portfolio.herokuapp.com/</p>
             <hr style={{ border: "3px solid red", width: "90%" }} />
           </Cell>
 
