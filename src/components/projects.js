@@ -38,7 +38,7 @@ class Projects extends Component {
                     width: "600px",
                     backgroundSize: "cover",
                     backgroundRepeat: "no-repeat",
-                    backgroundImage: "url(/images/recipe-search.png",
+                    backgroundImage: "url(/images/recipe-search.png)",
                     color: "black",
                   }}
                 >
@@ -89,7 +89,7 @@ class Projects extends Component {
                     width: "600px",
                     backgroundSize: "cover",
                     backgroundRepeat: "no-repeat",
-                    backgroundImage: "url(/images/project-2.png",
+                    backgroundImage: "url(/images/project-2.png)",
                     color: "black",
                   }}
                 >
@@ -133,7 +133,7 @@ class Projects extends Component {
                     width: "600px",
                     backgroundSize: "cover",
                     backgroundRepeat: "no-repeat",
-                    backgroundImage: "url(/images/kids.png",
+                    backgroundImage: "url(/images/choreZ.png)",
                     color: "black",
                    
                   }}
@@ -141,7 +141,7 @@ class Projects extends Component {
                   
                 </CardTitle>
                 <CardText>
-                  This project was the result of a team collaboration. In this app, parents can create a list of chores that the kids may follow and earn points for it.
+                  This project was the result of a team collaboration. With this app, parents can create a list of chores that the kids may follow and earn points for it.
                 </CardText>
                 <CardActions border>
                   <Button
@@ -153,7 +153,7 @@ class Projects extends Component {
                   </Button>
                                 {" "}
                   <Button
-                    href="https:heroku!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+                    href="https://chorezz.herokuapp.com/"
                     target="_blank"
                     colored
                   >
@@ -180,7 +180,7 @@ class Projects extends Component {
                     width: "600px",
                     backgroundSize: "cover",
                     backgroundRepeat: "no-repeat",
-                    backgroundImage: "url(/images/eat-da-burger.png",
+                    backgroundImage: "url(/images/eat-da-burger.png)",
                     color: "black",
                   }}
                 >
@@ -225,7 +225,7 @@ class Projects extends Component {
                     width: "600px",
                     backgroundSize: "cover",
                     backgroundRepeat: "no-repeat",
-                    backgroundImage: "url(/images/password-generator.png",
+                    backgroundImage: "url(/images/password-generator.png)",
                     color: "black",
                   }}
                 >
@@ -268,7 +268,7 @@ class Projects extends Component {
                     width: "600px",
                     backgroundSize: "cover",
                     backgroundRepeat: "no-repeat",
-                    backgroundImage: "url(/images/weather.png",
+                    backgroundImage: "url(/images/weather.png)",
                     color: "black",
                   }}
                 >
