@@ -10,7 +10,7 @@
 
 - https://github.com/solka2019/react-MDL-portfolio
 
-- https://react-mdl-portfolio.herokuapp.com/projects
+- https://react-mdl-portfolio.herokuapp.com/
 
 
 
