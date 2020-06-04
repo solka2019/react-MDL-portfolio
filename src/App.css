@@ -80,11 +80,22 @@ body {
 }
 
 .banner-text h1 {
-  font-size: 66px;
+  font-size: 56px;
   font-weight: bold;
-  color: white;
+  /* color: white; */
+  color: rgb(116, 16, 16);
   text-align: center;
 }
+
+.banner-text h2 {
+  font-size: 66px;
+  font-weight: bold;
+    color: white;
+
+  /* color: rgb(116, 16, 16); */
+  text-align: center;
+}
+
 
 /* .banner-text hr {
   border-top: 5px dotted white;
