@@ -7,7 +7,9 @@ class Landing extends Component {
     render() {
         return(
             <div style={{width: '100%', margin: 'auto'}}>
+
                 <Grid className="landing-grid">
+
                     <Cell col={12}>
                         
                         <div className="header-banner">  
@@ -34,7 +36,6 @@ class Landing extends Component {
                                 {/* Linkedin */}
                                 <a href="https://www.linkedin.com/in/marissol-k-603962113/" rel="noopener noreferrer"  target="_blank" style={{ color:'rgb(116, 16, 16)',  fontSize:'60px', marginBottom:'-220px', marginLeft: '90px',marginTop:'-130px', float: 'left', position: 'flex'}}>
                                     <FaLinkedin/>
-                                    {/* <i className="fa fa-linkedin-square" aria-hidden="true"/> */}
                                 </a>
 
                                 {/* Github */}
