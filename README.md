@@ -1,4 +1,5 @@
 ## My Portfolio - React
+## Homework 20
 
 ### To run this app:
 
@@ -7,9 +8,9 @@
 
 ### Github
 
-https://github.com/solka2019/react-MDL-portfolio
+- https://github.com/solka2019/react-MDL-portfolio
 
-https://solka2019.github.io/react-MDL-portfolio/.
+- https://react-mdl-portfolio.herokuapp.com/projects
 
 
 
