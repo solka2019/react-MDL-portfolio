@@ -13,6 +13,7 @@ class Contact extends Component {
 <div className="banner-contact">
 <h1>Marissol Karczeski</h1>
 <hr></hr>
+
 <h3>
 Phone:
 425-457-6040

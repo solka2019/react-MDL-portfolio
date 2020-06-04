@@ -68,13 +68,14 @@ body {
 
 /* landing page */
 .banner-text {
-  background-color: gray;
-  opacity: .8;
+  background-color:gray;
+  opacity:1;
   width: 75%;
   margin: auto;
   border-radius: 10px;
   height: 30%;
   border: solid 8px white;
+
 
 }
 
@@ -85,45 +86,29 @@ body {
   text-align: center;
 }
 
-.banner-text hr {
+/* .banner-text hr {
   border-top: 5px dotted white;
   width: 50%;
   margin: auto;
 
-}
+} */
 
 .banner-text p {
   color: white;
   font-size: 20px;
   padding: 1em;
   text-align: center;
-}
 
-.social-links {
-  display: flex;
-  justify-content: space-between;
-  width: 50%;
-  margin: auto;
-}
-
-.social-links i {
-  color: white;
-  font-size: 5em;
-  padding: 8px;
 }
 
 
 /* projects page */
 
 
-
-
-
 .projects-grid {
   display: flex;
   justify-content: space-between;
   position: flex;
-  /* padding-top: 300px; */
 }
 
 .projects-grid .card {
@@ -144,10 +129,4 @@ body {
   font-size: 1.5 rem;
 }
 
-/* Contacts Page */
-.contact-banner {}
 
-.responsive {
-  width: 100%;
-  height: auto;
-}
